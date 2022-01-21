@@ -14,7 +14,7 @@ public:
         int minValue = 0, maxValue = 0;
         for (int i = 1; i < n; i++)
         {
-            dp[i] = max(nums[i] - dp[i - 1])
+            dp[i] = max(nums[i] - dp[i - 1]);
         }
     }
 };
